@@ -1,0 +1,84 @@
+.login-container {
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  
+  }
+  h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: crimson;
+  }
+  .pin-drop {
+    color: #B000B9;
+    margin-right: 0.5rem;
+  }
+  form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: .7s ease-in-out;
+  
+  }
+  
+  input{
+      height: 3rem;
+  }
+  .username{
+      font-size: 1.2rem;
+      
+  }
+  .password{
+      font-size: 2.5rem;
+      height: 19%;
+  }
+ 
+  
+  .login-btn{
+      margin-top: .2rem;
+      background-color: green;
+      padding: 5px ;
+      font-size: 1.5rem;
+      border-radius: 10px;
+      color: white;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      border: none;
+      cursor: pointer;
+  }
+  
+  .failure{
+    color: red;
+    font-size: .8rem;
+    text-align: center;
+  }
+  
+  .cancel-login{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    cursor: pointer;
+    color: red;
+  }
+  
+  
+ 

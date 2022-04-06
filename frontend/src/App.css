@@ -1,0 +1,130 @@
+
+  
+  .pin-card{
+    width: 17rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+   
+    
+  }
+  label{
+    color: crimson;
+    font-size: 1rem;
+    border-bottom: 1px solid crimson;
+    width: max-content;
+    margin: 4px 0;
+    margin-left: 2px;
+  }
+  .place{
+    font-size: 1.2rem;
+  }
+  .desc{
+    font-size: 1rem;
+  }
+  .star{
+    color: gold;
+  }
+  /* .username{
+    font-size: 1rem;
+  } */
+  
+  .date{
+    font-size: .8rem;
+  }
+  form{
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  input{
+    height: 13px;
+    font-size: 1rem;
+    width: auto;
+    border: none;
+    border-bottom: 0.5px solid gray 
+  }
+  textarea{
+    resize: none;
+    border: none;
+    border-bottom: 0.5px solid gray;
+  }
+  input::placeholder, textarea::placeholder{
+    font-size: 15px;
+    color: gray;
+  }
+  
+  textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+option{
+  font-size: 1.2rem;
+}
+  .addpin-btn{
+    border: none;
+    height: 2.5rem;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    background-color: #4C0027;
+    cursor: pointer;
+    margin-bottom: -5px;
+  }
+
+ 
+   .button{
+    position: absolute;
+    
+    top: 30px;
+    right: 50px;
+    padding: 5px 7px;
+    font-weight: 300;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .7s ease-in-out;
+   
+  }  
+
+  
+  
+  .logout{
+    background-color: crimson;
+  }
+
+ 
+
+.buttons, .login{
+  position: absolute;
+  right: 180px;
+  background-color: green;
+
+}
+.buttons, .register{
+  position: absolute;
+  right: 50px;
+  background-color: #8A39E1;
+}
+.cancel-icon{
+  position: absolute;
+  background-color: white;
+  cursor: pointer;
+  color: red;
+ width: 3px;
+ height: 5px;
+  top: 11px;
+  right: .5px;
+}
+span{
+  font-size: 1rem;
+  margin-top: .2rem;
+  margin-bottom: -.2rem;
+}
+
+ 
+
