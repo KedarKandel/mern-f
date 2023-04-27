@@ -9,10 +9,10 @@ Before you can run this application, you will need to have the following install
 
 Node.js (v14.17.3 or higher)
 MongoDB (v4.4.6 or higher)
-Installing
+## Installing
 Clone the repository:
+- https://github.com/KedarKandel/mern-f.git
 
-## https://github.com/KedarKandel/mern-f.git
 ## Install the dependencies for the frontend:
 
 cd client
