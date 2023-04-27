@@ -12,7 +12,7 @@ MongoDB (v4.4.6 or higher)
 Installing
 Clone the repository:
 
-## git clone https://github.com/<username>/DROP-PINS-MAP.git
+## git clone https://github.com/<username>/mern-f.git
 ## Install the dependencies for the frontend:
 
 cd client
